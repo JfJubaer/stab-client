@@ -11,12 +11,12 @@ import Box6 from './Box6';
 const Boxes = () => {
     return (
         <div className='row row-cols-md-3 row-cols-sm-2 row-cols-lg-6 ms-5'>
-            <Box1 class="col"></Box1>
-            <Box2 class="col"></Box2>
-            <Box3 class="col"></Box3>
-            <Box4 class="col"></Box4>
-            <Box5 class="col"></Box5>
-            <Box6 class="col"></Box6>
+            <Box1 className="col"></Box1>
+            <Box2 className="col"></Box2>
+            <Box3 className="col"></Box3>
+            <Box4 className="col"></Box4>
+            <Box5 className="col"></Box5>
+            <Box6 className="col"></Box6>
         </div>
     );
 };

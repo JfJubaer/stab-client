@@ -4,13 +4,13 @@ import { FaChevronDown } from 'react-icons/fa';
 const Box3 = () => {
     return (
         <div>
-            <div class="card m-3 shadow-lg" style={{ "width": "200px" }}>
-                <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item fw-bold">Created</li>
-                    <li class="list-group-item card-footer text-success" style={{ "background-color": "#d5d4d9" }}><h3>593</h3></li>
-                    <li class="list-group-item">
+            <div className="card m-3 shadow-lg" style={{ "width": "200px" }}>
+                <ul className="list-group list-group-flush text-center">
+                    <li className="list-group-item fw-bold">Created</li>
+                    <li className="list-group-item card-footer text-success" style={{ "backgroundColor": "#f2f3f5" }}><h3>593</h3></li>
+                    <li className="list-group-item">
                         <p>to yesterday</p>
-                        <h3 class="text-success mt-0 p-0"> <FaChevronDown /> 9%</h3>
+                        <h3 className="text-success mt-0 p-0"> <FaChevronDown /> 9%</h3>
                     </li>
                 </ul>
 
